@@ -17,4 +17,6 @@ depoly:
   bucket_name: "elasticbeanstalk-us-east-1-347968643510"
   bucket_path: "docker-react"
   on:
-    branch: master  
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
